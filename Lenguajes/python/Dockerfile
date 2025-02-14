@@ -1,11 +1,7 @@
-# Dockerfile
-FROM python:3.11
+FROM python:3.14.0a5-slim-bookworm
 
-WORKDIR /app
-COPY suma.py .
+WORKDIR /python
 
-# Crea la carpeta 'resultados' antes de ejecutar
-RUN mkdir -p resultados
-
-CMD ["python", "suma.py"]
-
+COPY . /python
+ 
+CMD ["python", "suma.py"]
