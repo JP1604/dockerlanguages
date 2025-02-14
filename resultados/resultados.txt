@@ -1,0 +1,6 @@
+Resultados de los benchmarks:
+cpp: 100 ms
+java: 8 ms
+javascript: 211 ms
+python: 122 ms
+rust: 96 ms
